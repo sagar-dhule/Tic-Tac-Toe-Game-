@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root{
+  height: 100vh;
+ /* background-image: url("../public/wp8984773.webp"); background-size: cover;
+  opacity:60%;
+ */ 
+}

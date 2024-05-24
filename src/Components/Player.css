@@ -1,0 +1,100 @@
+.Player-container {
+    height: 70px;
+    width: 250px;
+    background-color: #f9f7f7;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+input:hover {
+    background-color: #e5f7f7;
+  }
+  
+  button {
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 0, 0, 0.5);
+  }
+  
+.player-name {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 15px;
+  }
+  
+  .symbol {
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  
+  .game-section {
+    height: 350px;
+    width: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .cell-content {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2196f3;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .cell:hover .cell-content {
+    opacity: 1;
+  }
